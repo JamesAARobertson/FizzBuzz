@@ -25,8 +25,12 @@ let answer = parseInt(prompt("Please enter the number you would like to FizzBuzz
 
 
 for (let i = 1; i <= answer; i++) {
+    // if statement for fizzbuzz
+if (i % 3 === 0 && i % 5 === 0) {
+    console.log("FizzBuzz")
+}
     // if statement to see if divisible by three
-  if (i % 3 === 0) {
+ else if (i % 3 === 0) {
     console.log("Fizz");
     // if else statement to see if divisible by five
 } else if (i % 5 === 0) {
